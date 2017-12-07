@@ -1,11 +1,12 @@
 {
-  "name": "Zadanie-7.6",
+  "name": "Module-8",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npm run test:html",
-    "test:html": "glob-run nu-html-checker *.html",
+    "test:html": "nu-html-checker *.html",
+    "test:js": "jshint js/scripts.js",
     "build": "npm run build:clean && npm run build:sass && npm run build:autoprefixer && npm run test",
     "build:clean": "rimraf css/*.css css/*.map",
     "build:sass": "sass --sourcemap=none --update sass:css",
@@ -22,6 +23,7 @@
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.18.13",
     "nu-html-checker": "^0.1.0",
+    "jshint": "^2.9.5",
     "onchange": "^3.2.1",
     "rimraf": "^2.6.2"
   },
