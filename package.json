@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test:html",
-    "test:html": "glob-run nu-html-checker *.html",
+    "test:html": "nu-html-checker *.html",
+    "test:js": "jshint js/scripts.js",
     "build": "npm run build:clean && npm run build:sass && npm run build:autoprefixer && npm run test",
     "build:clean": "rimraf css/*.css css/*.map",
     "build:sass": "sass --sourcemap=none --update sass:css",
