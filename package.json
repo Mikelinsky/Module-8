@@ -22,6 +22,7 @@
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.18.13",
     "nu-html-checker": "^0.1.0",
+    "jshint": "^2.9.5",    
     "onchange": "^3.2.1",
     "rimraf": "^2.6.2"
   },
