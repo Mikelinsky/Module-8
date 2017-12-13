@@ -1,6 +1,6 @@
-var a = 5,
-    h = 8,
-    triangleArea;
+var a = 5;
+var h = 8;
+var triangleArea;
 
 triangleArea = a * h / 2
 
