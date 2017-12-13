@@ -4,10 +4,10 @@ var value = (a * a) - (2 * a * b) + (b * b);
 
 console.log(value); 
 if ( value > 0 )  {
-    alert("Result is positive"),
+    alert("Result is positive");
     console.log("Result is positive");
 } else if (value < 0) {
-    alert("Result is negative"),
+    alert("Result is negative");
     console.log("Result is negative");
 } else {
     alert("Result is zero");
